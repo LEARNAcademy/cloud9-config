@@ -52,6 +52,7 @@ Copy and past the following command into the terminal window.  This will downloa
 
  ![Create Rails App](./assets/7-hello-world.png)
 
+
  #### Set Ubuntu Postgres User
  The setup script created a user in Postgresql named 'ubuntu'.  We need to configure Rails to use this user when connecting to the database.
 

@@ -1,5 +1,8 @@
 # cloud9-config
 
+[![YouTube](http://img.youtube.com/vi/w9lT4Sz5tNs/0.jpg)](https://www.youtube.com/watch?v=w9lT4Sz5tNs)
+]
+
 ## setup.sh
 
 This is a script to run on a new Cloud-9 Ubuntu instance that will setup a Ruby on Rails environment for development.

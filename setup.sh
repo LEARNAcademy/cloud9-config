@@ -7,6 +7,7 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.lis
 apt-get update
 apt-get -y install postgresql postgresql-contrib libpq-dev yarn
 sudo -u postgres createuser -s ubuntu
+sudo apt autoremove
 
 sudo -i -u ubuntu bash << EOF
 

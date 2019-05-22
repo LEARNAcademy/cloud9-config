@@ -18,7 +18,7 @@ sudo -u postgres createuser -s ubuntu
 echo "Command: sudo apt autoremove"
 sudo apt autoremove
 
-echo "Command: sudo -i -u ubuntu bash << EOF"
+
 sudo -i -u ubuntu bash << EOF
 
 echo "Command: gem install bundler"
@@ -36,9 +36,10 @@ nvm alias default 10.15.3
 
 # React
 
-echo "Command: npm install react@16.8.6"
-npm install react@16.8.6
+echo "Command: yarn global add react@16.8.6"
+yarn global add react@16.8.6
 
-echo "Cpommand: npm install create-react-app@3.0.1"
-npm install create-react-app@3.0.1
+echo "Cpommand: yarn global add create-react-app@3.0.1"
+yarn global add create-react-app@3.0.1
+
 EOF

@@ -18,9 +18,6 @@ sudo -u postgres createuser -s ubuntu
 echo "Command: sudo apt autoremove"
 sudo apt autoremove
 
-
-sudo -i -u ubuntu bash << EOF
-
 echo "Command: gem install bundler"
 gem install bundler
 
@@ -42,4 +39,3 @@ yarn global add react@16.8.6
 echo "Cpommand: yarn global add create-react-app@3.0.1"
 yarn global add create-react-app@3.0.1
 
-EOF

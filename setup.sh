@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Get a current version of yarn
-sudo su bash << EOF
+sudo -i -u root bash << EOF
 echo "Command: curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg |  apt-key add -"
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
 
@@ -37,8 +37,8 @@ nvm alias default 10.15.3
 # React
 
 echo "Command: yarn global add react@16.8.6"
-yarn global add react@16.8.6
+npm install -g react@16.8.6
 
 echo "Cpommand: yarn global add create-react-app@3.0.1"
-yarn global add create-react-app@3.0.1
+npm install -g create-react-app@3.0.1
 

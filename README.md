@@ -11,7 +11,7 @@ This is a script to run on a new Cloud-9 Ubuntu instance that will setup a Ruby 
 
 1) Choose 'Ubuntu' environment when setting up a new Cloud 9 Instance
 2) From the command line, run:
-  ```\curl -sSL https://raw.githubusercontent.com/LEARNAcademy/cloud9-config/master/setup.sh | sudo bash -s```
+  ```\curl -sSL https://raw.githubusercontent.com/LEARNAcademy/cloud9-config/master/setup.sh | bash -s```
 3) Set the username in config/database.yml to: ubuntu
 
 ### Details
@@ -46,7 +46,7 @@ It may take a minute or two for Cloud9 to setup your new development server.  Th
 Copy and past the following command into the terminal window.  This will download a script from Learn's Github account and configure your sever with the things you need to start developing:
 
 ```Bash
- \curl -sSL https://raw.githubusercontent.com/LEARNAcademy/cloud9-config/master/setup.sh | sudo bash -s
+ \curl -sSL https://raw.githubusercontent.com/LEARNAcademy/cloud9-config/master/setup.sh | bash -s
  ```
 
  ![Setup](./assets/6-run-script.png)

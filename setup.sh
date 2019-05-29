@@ -23,3 +23,5 @@ nvm alias default 10.15.3
 # React
 npm install -g react@16.8.6
 npm install -g create-react-app@3.0.1
+
+npm install -g npm

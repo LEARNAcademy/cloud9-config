@@ -14,7 +14,7 @@ apt autoremove
 EOF
 
 gem install bundler
-gem install rails -v 5.2.3
+gem install rails
 
 # Now Node
 nvm install 10.15.3
